@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Wasserstein Diffusion on the Annotation Simplex</title>
+
+<style>
+
+body{
+max-width:950px;
+margin:auto;
+padding:40px;
+font-family:system-ui,sans-serif;
+line-height:1.7;
+color:#222;
+}
+
+.hero{
+margin-bottom:60px;
+}
+
+h1{
+font-size:46px;
+margin-bottom:10px;
+}
+
+.subtitle{
+color:#666;
+font-size:20px;
+}
+
+.card{
+padding:25px;
+border:1px solid #ddd;
+border-radius:12px;
+margin-top:20px;
+}
+
+.button{
+display:inline-block;
+background:#2563eb;
+color:white;
+padding:12px 22px;
+text-decoration:none;
+border-radius:8px;
+margin-top:20px;
+}
+
+.grid{
+display:grid;
+grid-template-columns:1fr 1fr 1fr;
+gap:20px;
+margin-top:30px;
+}
+
+iframe{
+width:100%;
+height:850px;
+border:1px solid #ddd;
+margin-top:40px;
+}
+
+</style>
+</head>
+
+<body>
+
+<div class="hero">
+
+<h1>Wasserstein Diffusion on the Annotation Simplex</h1>
+
+<p class="subtitle">
+A geometric correction for diffusion-based video summarization
+</p>
+
+<p>
+Milind Sahu • IISER Tirupati
+</p>
+
+<a class="button" href="RESEARCH_PROPOSAL_IIITK.pdf">
+Read Proposal
+</a>
+
+</div>
+
+<div class="grid">
+
+<div class="card">
+<h3>Wasserstein Barycenter</h3>
+<p>
+Optimal transport consensus replacing arithmetic averaging.
+</p>
+</div>
+
+<div class="card">
+<h3>Dirichlet Noise</h3>
+<p>
+Maintains valid probability distributions throughout diffusion.
+</p>
+</div>
+
+<div class="card">
+<h3>Wasserstein Loss</h3>
+<p>
+Adds geometry-aware supervision during training.
+</p>
+</div>
+
+</div>
+
+<div class="card">
+
+<h2>Research Motivation</h2>
+
+<p>
+Human annotators often disagree in structured ways.
+Simple averaging can create a consensus that reflects
+nobody's actual opinion. This project introduces a
+Wasserstein-geometric approach that respects the
+underlying simplex structure of annotation distributions.
+</p>
+
+</div>
+
+<iframe src="RESEARCH_PROPOSAL_IIITK.pdf"></iframe>
+
+</body>
+</html>
